@@ -1,0 +1,8 @@
+body { background-color: #EEE; }
+h1   { color: #B3B4FF;         }
+a {
+    text-decoration:  none;
+    color:            #B3B4FF;
+    background-color: #CCC;
+    border-bottom:    3px solid #AAA; border-top: 3px solid #AAA;
+}

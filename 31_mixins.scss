@@ -9,7 +9,7 @@ $linkborder: 3px solid darken($bgcolor, 26.5%);
     color:            $accents;
 }
 
-body { font-size: $size; background-color: $bgcolor; }
+body { background-color: $bgcolor; font-size: $size; }
 h1 {
     @include accented;
     font-size: $size * 2;

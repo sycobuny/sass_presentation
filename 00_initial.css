@@ -1,13 +1,13 @@
-body { font-size: 12px; background-color: #EEE; }
+body { background-color: #EEE; font-size: 12px; }
 h1 {
-    font-size:        24px;
     background-color: #CCC;
     color:            #FA3B3B;
+    font-size:        24px;
 }
 a {
-    text-decoration:  none;
     background-color: #CCC;
     color:            #FA3B3B;
+    text-decoration:  none;
     border-bottom:    3px solid #AAA;
     border-top:       3px solid #AAA;
 }

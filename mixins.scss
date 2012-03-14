@@ -1,7 +1,7 @@
 $bgcolor:    #EEE;
+$size:       12px;
 $accents:    mix($bgcolor, #F00, 25%);
 $accentbg:   darken($bgcolor, 13.5%);
-$size:       12px;
 $linkborder: 3px solid darken($bgcolor, 26.5%);
 
 @mixin accented {

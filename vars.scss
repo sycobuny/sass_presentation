@@ -4,7 +4,7 @@ $linkbg:     #CCC;
 $linkborder: 3px solid #AAA;
 
 body { background-color: $bgcolor; }
-h1   { color:            $accents; }
+h1   { background-color: $accents; color: $accents; }
 a {
     text-decoration:  none;
     color:            $accents;

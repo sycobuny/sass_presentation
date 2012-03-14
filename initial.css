@@ -1,5 +1,5 @@
 body { background-color: #EEE; }
-h1   { color: #FA3B3B;         }
+h1   { color: #FA3B3B; background-color: #CCC; }
 a {
     text-decoration:  none;
     color:            #FA3B3B;

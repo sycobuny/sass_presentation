@@ -1,7 +1,7 @@
 $bgcolor:    #EEE;
-$accents:    #FA3B3B;
-$linkbg:     #CCC;
-$linkborder: 3px solid #AAA;
+$accents:    mix($bgcolor, #F00, 25%);
+$linkbg:     darken($bgcolor, 13.5%);
+$linkborder: 3px solid darken($bgcolor, 26.5%);
 
 body { background-color: $bgcolor; }
 h1   { color:            $accents; }

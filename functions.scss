@@ -1,10 +1,15 @@
 $bgcolor:    #EEE;
 $accents:    mix($bgcolor, #F00, 25%);
 $accentbg:   darken($bgcolor, 13.5%);
+$size:       12px;
 $linkborder: 3px solid darken($bgcolor, 26.5%);
 
-body { background-color: $bgcolor; }
-h1   { background-color: $accentbg; color: $accents; }
+body { font-size: $size; background-color: $bgcolor; }
+h1 {
+    font-size:        $size * 2;
+    background-color: $accentbg;
+    color:            $accents;
+}
 a {
     text-decoration:  none;
     background-color: $accentbg;

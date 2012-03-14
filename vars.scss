@@ -1,14 +1,19 @@
 $bgcolor:    #EEE;
 $accents:    #FA3B3B;
 $linkbg:     #CCC;
+$size:       12px;
 $linkborder: 3px solid #AAA;
 
-body { background-color: $bgcolor; }
-h1   { background-color: $accents; color: $accents; }
+body { font-size: $size; background-color: $bgcolor; }
+h1 {
+    font-size:        $size * 2;
+    background-color: $accents;
+    color: $accents;
+}
 a {
     text-decoration:  none;
-    color:            $accents;
     background-color: $linkbg;
+    color:            $accents;
     border-bottom:    $linkborder;
     border-top:       $linkborder;
 }

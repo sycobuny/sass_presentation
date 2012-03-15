@@ -1,0 +1,5 @@
+plugins:
+  "Preprocess::Sass":
+    save:  1
+    paths:
+      - css

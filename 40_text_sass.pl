@@ -2,10 +2,10 @@
 
 use Text::Sass;
 
-open(SASS, 'myawesome.sass');
-open(SCSS, 'myawesome.scss');
-open(CSS1, '> styles_fromsass.css');
-open(CSS2, '> styles_fromscss.css');
+open(SASS, 'my_awesome.sass');
+open(SCSS, 'my_awesome.scss');
+open(CSS1, '> styles_from_sass.css');
+open(CSS2, '> styles_from_scss.css');
 
 undef $/;
 print CSS1 Text::Sass->sass2css(<SASS>);

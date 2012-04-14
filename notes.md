@@ -48,6 +48,8 @@ a {
 Sass Variables
 --------------
 
+### SCSS ###
+
 ```scss
 $bgcolor:    #EEE;
 $size:       12px;
@@ -70,6 +72,7 @@ a {
 }
 ```
 
+### SASS
 ```sass
 $bgcolor:    #EEE
 $size:       12px

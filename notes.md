@@ -1,8 +1,8 @@
 Intro to Sass - DCBPW/April 14, 2012
-------------------------------------
+====================================
 
 What Is Sass?
-=============
+-------------
 
 * CSS Compiler - Converts other languages to CSS
 * Inspired by "HAML" - HTML Compiler
@@ -10,7 +10,7 @@ What Is Sass?
 * 2 Syntaxes - SCSS (sassy CSS), and SASS (think perl vs. Perl)
 
 SCSS vs. SASS
-=============
+-------------
 
 * SCSS can be *just* CSS, SASS is a completely different syntax
 * SCSS is semicolon-terminated, SASS is newline-terminated
@@ -18,7 +18,7 @@ SCSS vs. SASS
 * **IMHO** SCSS better for existing projects, SASS better for new ones
 
 Variable Construction
-=====================
+---------------------
 
 * Perlish (using $)
 * Mostly-"regular" naming rules
@@ -27,7 +27,7 @@ Variable Construction
   * Numbers, Strings, Colors, "Lists", Booleans
 
 Initial CSS Example
-===================
+-------------------
 
 ```css
 body { background-color: #EEE; font-size: 12px; }
@@ -46,7 +46,7 @@ a {
 ```
 
 Sass Variables
-==============
+--------------
 
 ```scss
 $bgcolor:    #EEE;
